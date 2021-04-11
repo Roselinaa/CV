@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+}
+
+
+/* head */
+.head{
+    text-align: center;
+}
+.head h1{
+    font-size: xx-large;
+}
+/*  */
+
+hr{
+    border: 1px solid black;
+}
+
+/* biodata */
+div.row{
+    width: 100%;
+}
+div.row div{
+    float: left;
+}
+
+.small{
+    width: 10%;
+}
+
+.big{
+    width: 90%;
+}
+
+/* objective */
+.objective{
+    margin-top: 50px;
+}
+
+/* work */
+.work p{
+    font-size: small;
+}
+
+.work span{
+    float: right;
+}
+
+/* education */
+.education span{
+    float: right;
+}
+
+/* Queries */
+
+@media screen and (max-width: 1187px){
+    .small{
+        width: 20%;
+    }
+    
+    .big{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 703px){
+    body{
+        margin: 80px;
+    }
+    
+    .head h1{
+        font-size: x-large;
+    }
+    
+    .small{
+        width: 30%;
+    }
+    
+    .big{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body{
+        margin: 60px;
+    }
+
+    .head h1{
+        font-size: large;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    h4{
+        font-size: small;
+    }
+
+    p, li{
+        font-size: x-small;
+    }
+
+    strong, span{
+        font-size: xx-small;
+    }
+}
+
+@media screen and (max-width: 428px){
+    body{
+        margin: 30px;
+    }
+
+    .head h1{
+        font-size: small;
+    }
+
+    h3{
+        font-size: xx-small;
+    }
+
+    h4{
+        font-size: xx-small;
+    }
+
+    p, li{
+        font-size: 10px;
+    }
+
+    strong, span{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        margin: 40px;
+    }
+
+    .head h1{
+        font-size: small;
+    }
+
+    h3{
+        font-size: 8px;
+    }
+
+    h4{
+        font-size: 8px;
+    }
+
+    p, li{
+        font-size: 6px;
+    }
+
+    strong, span{
+        font-size: 4px;
+    }
+}
+
